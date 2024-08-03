@@ -1,0 +1,1174 @@
+# Translation of Plugins - Mailchimp for WooCommerce - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Mailchimp for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-12-21 03:12:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Mailchimp for WooCommerce - Stable (latest release)\n"
+
+#: admin/user-profile/mailchimp-user-profile.php:53
+#: public/partials/mailchimp-woocommerce-my-account.php:28
+msgid "Receive Order Updates"
+msgstr "注文の最新情報を受け取る"
+
+#: admin/user-profile/mailchimp-user-profile.php:41
+#: public/partials/mailchimp-woocommerce-my-account.php:19
+msgid "Unsubscribe from our newsletter"
+msgstr "ニュースレターの配信停止"
+
+#: admin/partials/tabs/newsletter-settings.php:205
+msgid "Checkout page is using Woocommerce blocks. Settings are available within the block options while editing the <a href=\"%s\">checkout page</a>."
+msgstr "購入手続きページは Woocommerce ブロックを使用しています。設定は<a href=\"%s\">チェックアウトページの</a>編集中にブロックオプション内で利用可能です。"
+
+#: blocks/woocommerce-blocks-extend-store-endpoint.php:78
+msgid "GDPR marketing opt-in."
+msgstr "GDPR マーケティングオプトイン。"
+
+#: admin/user-profile/mailchimp-user-profile.php:5
+msgid "User Subscribed"
+msgstr "登録ユーザー"
+
+#: admin/partials/tabs/plugin-settings.php:44
+#: admin/v2/templates/confirmation/tabs/advanced.php:32
+msgid "Enable support"
+msgstr "サポートメッセージを有効"
+
+#: admin/partials/tabs/plugin-settings.php:32
+#: admin/v2/templates/confirmation/tabs/advanced.php:37
+msgid "Remote diagnostics for the Mailchimp for WooCommerce plugin allows our development team to troubleshoot syncing issues."
+msgstr "Mailchimp for WooCommerce プラグインのリモート診断により、開発チームは同期の問題をトラブルシューティングすることができます。"
+
+#: admin/partials/tabs/plugin-settings.php:27
+msgid "Remote Diagnostics"
+msgstr "リモート診断"
+
+#. translators: Placeholders %1$s - opening strong HTML tag, %2$s
+#: admin/class-mailchimp-woocommerce-admin.php:474
+msgid "%1$sMailchimp for Woocommerce%2$s needs Action Scheduler plugin to function correctly, please confirm is installed"
+msgstr "%1$sMailchimp for Woocommerce%2$s 正しく機能するには、アクションスケジューラプラグインが必要です。インストールされていることを確認してください"
+
+#: blocks/assets/js/checkout-newsletter-subscription-block/block.json
+msgctxt "block description"
+msgid "Adds a newsletter subscription checkbox to the checkout."
+msgstr "購入手続きにニュースレター購読チェックボックスを追加します。"
+
+#: blocks/assets/js/checkout-newsletter-subscription-block/block.json
+msgctxt "block title"
+msgid "Mailchimp Newsletter!"
+msgstr "Mailchimp ニュースレター!"
+
+#: bootstrap.php:723
+msgid "The MailChimp For WooCommerce plugin requires <a href=\"https://www.php.net/manual/en/book.curl.php/\">curl</a> to be enabled!"
+msgstr "MailChimp For WooCommerce プラグインは<a href=\"https://www.php.net/manual/en/book.curl.php/\">curl</a> を有効にする必要があります!"
+
+#: blocks/woocommerce-blocks-extend-store-endpoint.php:56
+msgid "Subscribe to marketing opt-in."
+msgstr "マーケティングオプトインを購読する。"
+
+#: blocks/woocommerce-blocks-integration.php:131
+msgid "I want to receive updates about products and promotions."
+msgstr "商品やプロモーションに関する最新情報を受け取りたいです。"
+
+#: admin/partials/tabs/newsletter-settings.php:201
+msgid "Opt-In Checkbox Settings"
+msgstr "オプトイン・チェックボックスの設定"
+
+#: admin/partials/tabs/newsletter-settings.php:196
+#: admin/v2/templates/confirmation/tabs/audience.php:63
+msgid "Disable cart tracking"
+msgstr "カートトラッキングを無効にする"
+
+#: admin/partials/tabs/newsletter-settings.php:191
+msgid "Only track carts for subscribed customers"
+msgstr "登録された顧客のカートのみを追跡"
+
+#: admin/partials/tabs/newsletter-settings.php:186
+#: admin/v2/templates/confirmation/tabs/audience.php:51
+msgid "Track carts for all customers"
+msgstr "全顧客のカート追跡"
+
+#: admin/partials/tabs/newsletter-settings.php:181
+msgid "You may disable this if you are not using Abandoned Cart Automations."
+msgstr "カート放棄の自動化を使用していない場合は、これを無効にすることができます。"
+
+#: admin/partials/tabs/newsletter-settings.php:180
+msgid "Cart Tracking"
+msgstr "カート追跡"
+
+#: admin/partials/tabs/newsletter-settings.php:173
+msgid "Only sync subscribers. No transactional customers will be sent to your Mailchimp Audience"
+msgstr "購読者のみを同期します。Mailchimp オーディエンスにトランザクション顧客は送信されません。"
+
+#: admin/partials/tabs/newsletter-settings.php:162
+msgid "Ongoing Sync"
+msgstr "継続的な同期"
+
+#: admin/partials/tabs/newsletter-settings.php:154
+msgid "Only sync customers in this store who are subscribed in my Mailchimp Audience"
+msgstr "Mailchimp オーディエンスに登録されている顧客のみをこのストアで同期する"
+
+#: admin/partials/tabs/newsletter-settings.php:149
+msgid "Auto-subscribe all customers on the initial sync"
+msgstr "最初の同期ですべての顧客を自動購読する"
+
+#: admin/partials/tabs/newsletter-settings.php:144
+msgid "WooCommerce does not keep a historical record of a customer's opt-in preferences. This plugin will add this functionality moving forward. Do you want to subscribe all customers to your Mailchimp Audience or only those moving forward?"
+msgstr "WooCommerce は顧客のオプトイン設定の履歴を保持していません。このプラグインはこの機能を追加します。すべての顧客を Mailchimp オーディエンスに登録しますか?"
+
+#: admin/partials/tabs/newsletter-settings.php:143
+msgid "Initial Sync"
+msgstr "初期同期"
+
+#: admin/partials/tabs/newsletter-settings.php:137
+msgid "Sync Settings"
+msgstr "同期設定"
+
+#: admin/partials/tabs/newsletter-settings.php:168
+msgid "Send all data to your Mailchimp Audience, including subscribers and transactional customers"
+msgstr "購読者や取引顧客を含むすべてのデータを Mailchimp オーディエンスに送信します。"
+
+#: admin/partials/tabs/newsletter-settings.php:163
+msgid "To maximize your marketing efforts, we recommend syncing all customer data with Mailchimp. This way, you can send both marketing and transactional campaigns to your clients. You also have the option to only sync those who subscribe to your Audience at checkout or create an account on your store. Transactional messages like abandoned carts, order confirmations, etc., will not trigger if you decide to only send to subscribers."
+msgstr "マーケティング活動を最大化するために、すべての顧客データを Mailchimp と同期することをお勧めします。こうすることで、マーケティングとトランザクションの両方のキャンペーンを顧客に送ることができます。また、購入手続き時にオーディエンスに登録した人、またはストアでアカウントを作成した人だけを同期するオプションもあります。購読者だけに送信するように設定した場合、放棄されたカートや注文確認などのトランザクションメッセージはトリガーされません。"
+
+#. translators: Placeholders %1$s - Mailchimp Support URL, %2$s - link element
+#. id, %3$s - popup element id
+#: admin/partials/tabs/store-sync.php:247
+msgid "Need help? Visit <a href=%1$s target=_blank>Mailchimp support</a>"
+msgstr "ヘルプが必要ですか?<a href=%1$s target=_blank>Mailchimp サポートをご覧ください。</a>"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:119
+msgid "If you don’t have an audience, <br/> you can choose to create one"
+msgstr "オーディエンスがいなければ、 <br/> 作成を選択できます"
+
+#: admin/class-mailchimp-woocommerce-admin.php:2103
+msgid "We successfully synced %1$s orders to your Audience, %2$s. If you’re happy with this integration, leave a 5-star review. It helps our community know we’re working hard to make it better each day."
+msgstr "%1$sの注文が%2$sのオーディエンスに同期されました。この統合にご満足いただけましたら、5つ星のレビューを残してください。私たちのコミュニティが日々より良くなるように努力していることを知ることができます。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:164
+msgid "Message received"
+msgstr "メッセージ受信"
+
+#: admin/class-mailchimp-woocommerce-admin.php:163
+msgid "Sending support request"
+msgstr "サポートリクエストの送信"
+
+#: admin/class-mailchimp-woocommerce-admin.php:162
+msgid "Please allow your browser to show popups for this page"
+msgstr "このページでポップアップを表示できるようにしてください。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:161
+msgid "Login Popup is blocked!"
+msgstr "ログインポップアップがブロックされました!"
+
+#: admin/class-mailchimp-woocommerce-admin.php:160
+msgid "Disconnecting store in progress"
+msgstr "進行中の店舗の切断"
+
+#: admin/class-mailchimp-woocommerce-admin.php:159
+msgid "Could not resync orders, please try again."
+msgstr "注文を再同期できませんでした。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:158
+msgid "Resync request in progress"
+msgstr "再同期リクエスト中"
+
+#: admin/class-mailchimp-woocommerce-admin.php:157
+msgid "Try again"
+msgstr "もう一度お試しください"
+
+#: admin/class-mailchimp-woocommerce-admin.php:154
+msgid "Please wait"
+msgstr "お待ちください"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:227
+#: admin/v2/templates/confirmation/content.php:24
+msgid "Audience"
+msgstr "オーディエンス"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:225
+#: admin/v2/templates/confirmation/content.php:21
+msgid "Store"
+msgstr "店舗"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:211
+msgid "Connection settings"
+msgstr "接続テストに失敗"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:202
+msgid "Your WooCommerce store is syncing to Mailchimp"
+msgstr "WooCommerce ストアは Mailchimp に同期しています"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:200
+msgid "Success! You are connected to Mailchimp"
+msgstr "成功! Mailchimp に接続されています"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:187
+msgid "Campaign and messaging settings"
+msgstr "キャンペーンとメッセージングの設定"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:179
+msgid "WooCommerce store and location"
+msgstr "WooCommerce ストアとロケーション"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:143
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:148
+msgid "Back"
+msgstr "戻る"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:142
+msgid "Next step"
+msgstr "次のステップ"
+
+#: admin/class-mailchimp-woocommerce-admin.php:165
+msgid "Thanks, your message has been received."
+msgstr "メッセージを受信しました。"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:116
+msgid "Please provide a bit of information about your WooCommerce <br/> campaign and messaging settings."
+msgstr "WooCommerce に関する情報を少し提供してください <br/> キャンペーンとメッセージングの設定を行います。"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:114
+msgid "Add WooCommerce audience settings"
+msgstr "WooCommerce オーディエンス設定を追加する"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:110
+msgid "Please provide a bit of information about your WooCommerce <br/> store and location."
+msgstr "WooCommerce<br/> ストアと場所についての情報を入力してください。"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:109
+msgid "Add WooCommerce store settings"
+msgstr "WooCommerce ストア設定を追加する"
+
+#: admin/partials/tabs/store-sync.php:121
+msgid "Running"
+msgstr "実行中"
+
+#: admin/partials/tabs/store-sync.php:119
+msgid "Completed"
+msgstr "完了"
+
+#: admin/partials/tabs/store-sync.php:116
+msgid "Sync Status:"
+msgstr "同期ステータス:"
+
+#: admin/partials/tabs/plugin-settings.php:84
+msgid "Disconnect your store from Mailchimp. This action will remove all entries from the database but you will be able to reconnect anytime."
+msgstr "Mailchimp からストアを切断します。この操作でデータベースからすべてのエントリが削除されますが、いつでも再接続することができます。"
+
+#: admin/partials/tabs/plugin-settings.php:80
+#: admin/partials/tabs/plugin-settings.php:94
+msgid "Disconnect Store"
+msgstr "ストアを切断"
+
+#: admin/partials/tabs/plugin-settings.php:70
+msgid "Opt-in to our newsletter"
+msgstr "ニュースレターに登録"
+
+#: admin/partials/tabs/plugin-settings.php:58
+msgid "Occasionally we may send you information about how-to's, updates, and other news to the store's admin email address. Choose whether or not you want to receive these messages at %1$s "
+msgstr "時折、ハウツー、アップデート、その他のニュースに関する情報をストアの管理者メールアドレスにお送りすることがあります。これらのメッセージを受け取るかどうかは、%1$sで選択してください "
+
+#: admin/partials/tabs/plugin-settings.php:53
+msgid "Communication"
+msgstr "コミュニケーション"
+
+#: admin/partials/tabs/plugin-settings.php:23
+msgid "Plugin Settings"
+msgstr "プラグイン設定"
+
+#: admin/partials/tabs/api-key.php:15
+msgid "Connect account"
+msgstr "アカウントを接続する"
+
+#: admin/partials/tabs/store-info.php:155
+msgid "Permission Settings"
+msgstr "パーミッションの設定"
+
+#: admin/partials/tabs/newsletter-settings.php:275
+msgid "Opt-In checkbox position"
+msgstr "オプトインチェックボックスの位置"
+
+#: admin/partials/tabs/newsletter-settings.php:241
+msgid "The box below is a preview of your checkout page. Styles and fields may not be exact."
+msgstr "下のボックスは購入手続きページのプレビューです。スタイルとフィールドは正確ではない場合があります。"
+
+#: admin/partials/tabs/newsletter-settings.php:240
+msgid "Shop checkout preview"
+msgstr "ショップの購入手続きページプレビュー"
+
+#: admin/partials/tabs/newsletter-settings.php:237
+#: admin/v2/templates/confirmation/tabs/store-info.php:138
+msgid "Leave it blank to use language translation files (.po / .mo), translating the string: \"Subscribe to our newsletter\"."
+msgstr "空白のままにしておくと、言語翻訳ファイル( .po / .mo )を使用し、文字列を翻訳します: 「ニュースレターを購読する。」"
+
+#: admin/partials/tabs/newsletter-settings.php:80
+msgid "To select another audience, you must first disconnect your store on the Settings tab."
+msgstr "別のオーディエンスを選択するには、まず設定タブでストアを切断する必要があります。"
+
+#: admin/partials/tabs/newsletter-settings.php:77
+msgid "Your store is currently connected to:"
+msgstr "ストアは現在接続されています:"
+
+#: admin/partials/tabs/newsletter-settings.php:54
+msgid "Audience name"
+msgstr "オーディエンス名"
+
+#: admin/partials/tabs/newsletter-settings.php:50
+msgid "Connect your store with an audience"
+msgstr "ストアをオーディエンスにつなぐ"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:105
+msgid "Build custom segments, send automations, and track purchase <br/>activity in Mailchimp. Login to authorize an account connection."
+msgstr "カスタムセグメントを構築し、自動化を送信し、Mailchimp での購入<br/>アクティビティを追跡します。ログインしてアカウント接続を承認します。"
+
+#: admin/partials/tabs/store-info.php:121
+#: admin/v2/templates/confirmation/tabs/store-info.php:39
+msgid "General Settings"
+msgstr "一般設定"
+
+#: admin/partials/tabs/store-info.php:123
+#: admin/v2/templates/confirmation/tabs/store-info.php:41
+msgid "WooCommerce Settings"
+msgstr "WooCommerce 設定"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:104
+msgid "Add Mailchimp for WooCommerce"
+msgstr "WooCommerce に Mailchimp を追加する"
+
+#: blocks/woocommerce-blocks-integration.php:142
+#: includes/class-mailchimp-woocommerce-newsletter.php:83
+#: public/class-mailchimp-woocommerce-public.php:181
+msgid "Please select all the ways you would like to hear from us"
+msgstr "私たちから聞きたい方法をすべて選択してください"
+
+#. translators: %1$s - The Currency name and format (ex: USD | US Dollar) %2$s
+#. - Timezone name or offset (ex: America/New_York or UTC-4:00) %3$s and %5$s-
+#. <a> tag open %4$s - </a> tag close
+#: admin/partials/tabs/store-info.php:118
+msgid "We've detected that your WooCommerce store's currency is <b>%1$s</b> (%3$schange%4$s), and the WordPress timezone is <b>%2$s</b> (%5$schange%4$s)."
+msgstr "WooCommerce ストアの通貨は<b>%1$s</b> (%3$s変更%4$s)、WordPress のタイムゾーンは<b>%2$s</b> (%5$s変更%4$s)であることがわかりました。"
+
+#. translators: Placeholders %1$s - plugin wiki CLI URL, %2$s - plugin wiki WP
+#. caching issues url
+#: admin/partials/tabs/store-sync.php:229
+msgid "Have a larger store or having issues syncing? Consider using <a href=%1$s target=_blank>WP-CLI</a> or browse documentation around common <a href=%2$s target=_blank>caching problems</a>."
+msgstr "ストアの規模が大きいか、同期に問題がありますか? <a href=%1$s target=_blank>WP-CLI</a> の使用を検討するか、よくある<a href=%2$s target=_blank>キャッシュ問題</a> のドキュメントを参照してください。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:150
+msgid "Are you sure?"
+msgstr "本当に実行しますか ?"
+
+#: admin/partials/tabs/api-key.php:48
+#: admin/v2/templates/connect-accounts/create-account-page.php:85
+#: admin/v2/templates/connect-accounts/create-account-popup.php:33
+msgid "First name"
+msgstr "名"
+
+#: admin/partials/tabs/newsletter-settings.php:95
+msgid "From Email"
+msgstr "送信元メールアドレス"
+
+#: admin/partials/tabs/newsletter-settings.php:88
+msgid "From Name"
+msgstr "フォーム名"
+
+#: admin/partials/tabs/newsletter-settings.php:109
+msgid "Language"
+msgstr "言語"
+
+#: admin/partials/tabs/api-key.php:54
+#: admin/v2/templates/connect-accounts/create-account-page.php:92
+#: admin/v2/templates/connect-accounts/create-account-popup.php:39
+msgid "Last name"
+msgstr "姓"
+
+#: admin/partials/tabs/newsletter-settings.php:102
+msgid "Subject"
+msgstr "件名"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:193
+msgid "If you don’t have an audience, you can choose to create one"
+msgstr "オーディエンスがいない場合は、オーディエンスを作成することを選択することができます。"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:190
+msgid "Please apply your audience settings."
+msgstr "オーディエンス設定を適用してください。"
+
+#: admin/partials/tabs/logs.php:98
+#: admin/v2/templates/confirmation/tabs/logs.php:87
+msgid "Copy Log to clipboard"
+msgstr "ログをクリップボードにコピー"
+
+#: admin/partials/tabs/store-sync.php:290
+msgid "Sync is running. Please wait until it finishes."
+msgstr "同期が実行されています。終了するまでお待ちください。"
+
+#: admin/partials/tabs/store-sync.php:287
+#: admin/partials/tabs/store-sync.php:289
+#: admin/v2/templates/confirmation/tabs/advanced.php:65
+msgid "Resync now"
+msgstr "今すぐ再同期"
+
+#: admin/partials/tabs/store-sync.php:281
+msgid "Synchronization"
+msgstr "同期"
+
+#: admin/class-mailchimp-woocommerce-admin.php:2295
+msgid "Error loading log file contents"
+msgstr "ログファイルの内容の読み込みエラー"
+
+#: admin/class-mailchimp-woocommerce-admin.php:2254
+#: admin/class-mailchimp-woocommerce-admin.php:2270
+msgid "No log file provided"
+msgstr "提供されたログファイルはありません"
+
+#: admin/class-mailchimp-woocommerce-admin.php:426
+msgid "Log file deleted."
+msgstr "ログファイルが削除された。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:156
+msgid "Yes, disconnect."
+msgstr "はい、切断します。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:155
+msgid "You are about to disconnect your store from Mailchimp."
+msgstr "ストアを Mailchimp から切り離そうとしています。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:153
+msgid "No, cancel!"
+msgstr "キャンセルします。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:152
+msgid "Yes, delete it!"
+msgstr "はい、削除します!"
+
+#: admin/class-mailchimp-woocommerce-admin.php:151
+msgid "You will not be able to revert."
+msgstr "元に戻すことはできません。"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:192
+msgid "Please apply your audience settings. "
+msgstr "オーディエンス設定を適用してください。 "
+
+#. translators: Placeholders %1$s - opening strong HTML tag, %2$s - closing
+#. strong HTML tag, %3$s - opening link HTML tag, %4$s - closing link HTML tag
+#: admin/class-mailchimp-woocommerce-admin.php:452
+msgid "%1$sMailchimp for Woocommerce%2$s is not yet connected to a Mailchimp account. To complete the connection, %3$svisit the plugin settings page%4$s."
+msgstr "%1$sMailchimp for Woocommerce%2$s はまだ Mailchimp アカウントに接続されていません。接続を完了するには、%3$sプラグイン設定ページ%4$sにアクセスしてください。"
+
+#: admin/partials/tabs/newsletter-settings.php:302
+msgid "Tags"
+msgstr "タグ"
+
+#: bootstrap.php:333
+msgid "Error retrieving list for double_optin check"
+msgstr "double_optin チェックのリスト取得エラー"
+
+#: admin/class-mailchimp-woocommerce-admin.php:1290
+#: admin/class-mailchimp-woocommerce-admin.php:1496
+#: admin/class-mailchimp-woocommerce-admin.php:2065
+msgid "Cannot create or update Store at Mailchimp."
+msgstr "Mailchimp でストアを作成または更新できません。"
+
+#: admin/partials/tabs/newsletter-settings.php:306
+msgid "Add a comma-separated list of tags to apply to a subscriber in Mailchimp after a transaction occurs"
+msgstr "トランザクション発生後に Mailchimp で購読者に適用するタグのコンマ区切りリストを追加する"
+
+#: admin/partials/tabs/newsletter-settings.php:211
+#: blocks/assets/js/checkout-newsletter-subscription-block/edit.js:28
+#: blocks/build/newsletter-block.js:1
+msgid "Choose how you want the opt-in to your newsletter checkbox to render at checkout"
+msgstr "買い物手続き時のニュースレター購読チェックボックスの表示方法を選択します"
+
+#: admin/partials/tabs/newsletter-settings.php:233
+msgid "The call-to-action text that prompts customers to subscribe to your newsletter at checkout."
+msgstr "買い物手続き時にニュースレターの購読を促すコールトゥアクションのテキストです。"
+
+#: admin/partials/tabs/api-key.php:204
+#: admin/v2/templates/connect-accounts/create-account-popup.php:189
+msgid "Connecting..."
+msgstr "接続中…"
+
+#: admin/partials/tabs/api-key.php:141
+#: admin/v2/templates/connect-accounts/create-account-popup.php:126
+msgid "Phone"
+msgstr "電話"
+
+#: admin/partials/tabs/api-key.php:66
+#: admin/v2/templates/connect-accounts/create-account-popup.php:51
+msgid "Username"
+msgstr "ユーザー名"
+
+#: admin/partials/tabs/api-key.php:86
+#: admin/v2/templates/connect-accounts/create-account-popup.php:71
+msgid "Address Line 1"
+msgstr "住所1行目"
+
+#: admin/partials/tabs/api-key.php:92
+#: admin/v2/templates/connect-accounts/create-account-popup.php:77
+msgid "Address Line 2"
+msgstr "住所2行目"
+
+#: admin/partials/tabs/api-key.php:190
+#: admin/v2/templates/connect-accounts/create-account-popup.php:175
+msgid "Go Back"
+msgstr "戻る"
+
+#: admin/partials/tabs/api-key.php:110
+#: admin/v2/templates/connect-accounts/create-account-popup.php:95
+msgid "Zip"
+msgstr "郵便番号"
+
+#: admin/partials/tabs/api-key.php:203
+#: admin/v2/templates/connect-accounts/create-account-popup.php:188
+msgid "Invalid Timezone"
+msgstr "タイムゾーンが無効です"
+
+#: admin/partials/tabs/api-key.php:202
+#: admin/v2/templates/connect-accounts/create-account-popup.php:187
+msgid "Invalid Phone"
+msgstr "無効な電話番号"
+
+#: admin/partials/tabs/api-key.php:201
+#: admin/v2/templates/connect-accounts/create-account-popup.php:186
+msgid "Invalid Country"
+msgstr "無効な国"
+
+#: admin/partials/tabs/api-key.php:200
+#: admin/v2/templates/connect-accounts/create-account-popup.php:185
+msgid "Invalid Zip"
+msgstr "無効な郵便番号"
+
+#: admin/partials/tabs/api-key.php:199
+#: admin/v2/templates/connect-accounts/create-account-popup.php:184
+msgid "Invalid State"
+msgstr "無効な状態"
+
+#: admin/partials/tabs/api-key.php:198
+#: admin/v2/templates/connect-accounts/create-account-popup.php:183
+msgid "Invalid City"
+msgstr "無効な市区町村"
+
+#: admin/partials/tabs/api-key.php:197
+#: admin/v2/templates/connect-accounts/create-account-popup.php:182
+msgid "Invalid Address"
+msgstr "無効なメールアドレス"
+
+#: admin/partials/tabs/api-key.php:193
+#: admin/v2/templates/connect-accounts/create-account-popup.php:178
+msgid "Get Started!"
+msgstr "始めましょう!"
+
+#: admin/partials/tabs/api-key.php:76
+#: admin/v2/templates/connect-accounts/create-account-popup.php:61
+msgid "Invalid Email. Please double check."
+msgstr "無効なメールです。再度確認してください。"
+
+#: admin/partials/tabs/api-key.php:72
+#: admin/v2/templates/connect-accounts/create-account-popup.php:57
+msgid "Next Step"
+msgstr "次のステップ"
+
+#: admin/partials/tabs/store-info.php:173
+#: admin/v2/templates/confirmation/tabs/store-info.php:71
+msgid "Shop Managers and Administrators"
+msgstr "ショップマネージャーと管理者"
+
+#: admin/partials/tabs/store-info.php:168
+#: admin/v2/templates/confirmation/tabs/store-info.php:77
+msgid "Administrators Only"
+msgstr "管理者のみ"
+
+#: admin/partials/tabs/store-info.php:161
+msgid "Select the minimum permission capability to manage Mailchimp for Woocommerce options"
+msgstr "Woocommerce のオプションのための Mailchimp を管理するための最小の権限の能力を選択します。"
+
+#: admin/partials/tabs/api-key.php:69
+#: admin/v2/templates/connect-accounts/create-account-popup.php:54
+msgid "Suggested username: "
+msgstr "推奨されるユーザー名: "
+
+#. translators: %s - Mailchimp legal pages
+#: admin/partials/tabs/api-key.php:175
+#: admin/v2/templates/connect-accounts/create-account-page.php:254
+#: admin/v2/templates/connect-accounts/create-account-popup.php:160
+msgid "By clicking the \"Get Started!\" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href=%1$s target=_blank>Terms of Use</a> and <a href=%2$s target=_blank>Privacy Policy</a>."
+msgstr "「始めましょう!」をクリックします。ボタンをクリックすると、Mailchimp アカウントが作成され、Mailchimp の<a href=%1$s target=_blank>利用規約</a>および<a href=%2$s target=_blank>プライバシーポリシー</a>に同意します。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:2151
+#: admin/class-mailchimp-woocommerce-admin.php:2188
+msgid "Saved"
+msgstr "保存しました"
+
+#: admin/partials/tabs/store-info.php:160
+msgid "Plugin Permission Level"
+msgstr "プラグイン権限レベル"
+
+#: admin/class-mailchimp-woocommerce-admin.php:2132
+#: admin/class-mailchimp-woocommerce-admin.php:2157
+msgid "Error setting communications status"
+msgstr "エラー設定通信状態"
+
+#: admin/class-mailchimp-woocommerce-admin.php:2109
+msgid "Leave a Review"
+msgstr "レビューを書く"
+
+#: admin/class-mailchimp-woocommerce-admin.php:611
+msgid "These constants are deprecated since Mailchimp for Woocommerce version 2.3. Please refer to the <a href=\"https://github.com/mailchimp/mc-woocommerce/wiki/\">plugin official wiki</a> for further details."
+msgstr "これらの定数は Mailchimp for Woocommerce バージョン 2.3 以降では非推奨です。詳細は<a href=\"https://github.com/mailchimp/mc-woocommerce/wiki/\">プラグイン公式wiki</a>を参照してください。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:609
+msgid "We dectected that this site has the following constants defined, likely at wp-config.php file"
+msgstr "このサイトでは、おそらく wp-config.php ファイルで以下の定数が定義されていることがわかりました。"
+
+#: admin/partials/tabs/api-key.php:19
+#: admin/v2/templates/connect-accounts/button-actions.php:26
+msgid "Error, can't login."
+msgstr "エラー、ログインできません。"
+
+#. translators: %s - Plugin review URL.
+#: admin/partials/tabs/store-sync.php:213
+msgid "Is this plugin helping your e-commerce business? <a href=%s target=_blank>Please leave us a ★★★★★ review!</a>."
+msgstr "このプラグインは、ネットショップビジネスを支援していますか?<a href=%s target=_blank>私たちに★★★★★のレビューを残してください！</a>."
+
+#: admin/v2/templates/confirmation/content.php:30
+msgid "Advanced"
+msgstr "上級者向け"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:369
+msgid "Close"
+msgstr "閉じる"
+
+#: admin/partials/tabs/api-key.php:60 admin/partials/tabs/store-info.php:44
+#: admin/v2/templates/connect-accounts/create-account-page.php:121
+#: admin/v2/templates/connect-accounts/create-account-popup.php:45
+msgid "Email"
+msgstr "メール"
+
+#: admin/partials/tabs/store-info.php:37
+msgid "Name"
+msgstr "名前"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:357
+msgid "Other"
+msgstr "その他"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:224
+#: admin/v2/templates/confirmation/content.php:18
+msgid "Overview"
+msgstr "概要"
+
+#: admin/partials/tabs/store-sync.php:157
+#: admin/v2/templates/confirmation/tabs/overview.php:232
+msgid "Products"
+msgstr "商品"
+
+#: admin/class-mailchimp-woocommerce-admin.php:324
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:230
+msgid "Settings"
+msgstr "設定"
+
+#: admin/partials/tabs/logs.php:68
+#: admin/v2/templates/confirmation/tabs/logs.php:59
+msgid "Debug"
+msgstr "デバッグ"
+
+#: includes/class-mailchimp-woocommerce-privacy.php:65
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: admin/partials/tabs/store-sync.php:130
+msgid "Last Updated:"
+msgstr "最終更新:"
+
+#: admin/partials/tabs/logs.php:67
+#: admin/v2/templates/confirmation/tabs/logs.php:58
+msgid "None"
+msgstr "なし"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:293
+msgid "Save all changes"
+msgstr "すべての変更を保存"
+
+#: admin/partials/tabs/logs.php:69
+#: admin/v2/templates/confirmation/tabs/logs.php:60
+msgid "Standard"
+msgstr "標準"
+
+#: admin/partials/tabs/api-key.php:147
+#: admin/v2/templates/connect-accounts/create-account-page.php:221
+#: admin/v2/templates/connect-accounts/create-account-popup.php:132
+msgid "Timezone"
+msgstr "タイムゾーン"
+
+#: includes/class-mailchimp-woocommerce-privacy.php:82
+msgid "User ID"
+msgstr "ユーザー ID"
+
+#. Author of the plugin
+#: mailchimp-woocommerce.php admin/class-mailchimp-woocommerce-admin.php:212
+#: admin/class-mailchimp-woocommerce-admin.php:228
+#: admin/class-mailchimp-woocommerce-admin.php:248
+#: admin/class-mailchimp-woocommerce-admin.php:262
+msgid "Mailchimp"
+msgstr "Mailchimp"
+
+#: admin/v2/templates/confirmation/tabs/overview.php:142
+msgid "Status:"
+msgstr "ステータス:"
+
+#: admin/partials/tabs/api-key.php:98 admin/partials/tabs/store-info.php:58
+#: admin/v2/templates/connect-accounts/create-account-page.php:168
+#: admin/v2/templates/connect-accounts/create-account-popup.php:83
+msgid "City"
+msgstr "市区町村"
+
+#: admin/partials/tabs/api-key.php:116 admin/partials/tabs/store-info.php:79
+#: admin/v2/templates/connect-accounts/create-account-page.php:192
+#: admin/v2/templates/connect-accounts/create-account-popup.php:101
+msgid "Country"
+msgstr "国"
+
+#: admin/partials/tabs/store-sync.php:147
+msgid "Coupons"
+msgstr "クーポン"
+
+#: admin/partials/tabs/store-info.php:130
+#: admin/v2/templates/confirmation/tabs/store-info.php:46
+msgid "Locale"
+msgstr "ロケール"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:229
+#: admin/v2/templates/confirmation/content.php:27
+msgid "Logs"
+msgstr "ログ"
+
+#. Plugin Name of the plugin
+#: mailchimp-woocommerce.php admin/class-mailchimp-woocommerce-admin.php:211
+#: admin/class-mailchimp-woocommerce-admin.php:247
+#: admin/class-mailchimp-woocommerce-admin.php:278
+#: admin/v2/templates/mailchimp-woocommerce-admin-pages.php:103
+msgid "Mailchimp for WooCommerce"
+msgstr "Mailchimp for WooCommerce"
+
+#: admin/partials/tabs/store-info.php:105
+msgid "Phone Number"
+msgstr "電話番号"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:177
+msgid "Please select an option"
+msgstr "オプションを選択してください"
+
+#: admin/partials/tabs/store-info.php:72
+msgid "Postal Code"
+msgstr "郵便番号"
+
+#: admin/partials/tabs/store-info.php:33
+msgid "Store Settings"
+msgstr "ストア設定"
+
+#: admin/partials/tabs/store-info.php:51
+msgid "Street address"
+msgstr "番地"
+
+#: admin/partials/tabs/logs.php:120
+#: admin/v2/templates/confirmation/tabs/logs.php:130
+msgid "There are currently no logs to view."
+msgstr "表示すべきログがありません。"
+
+#: bootstrap.php:733
+msgid "The MailChimp For WooCommerce plugin requires the <a href=\"http://wordpress.org/extend/plugins/woocommerce/\">WooCommerce</a> plugin to be active!"
+msgstr "MailChimp For WooCommerce プラグインは、<a href=\"http://wordpress.org/extend/plugins/woocommerce/\">WooCommerce</a> プラグインが有効になっている必要があります!"
+
+#: admin/class-mailchimp-woocommerce-admin.php:2085
+msgid "Sometimes the sync can take a while, especially on sites with lots of orders and/or products. It is safe to navigate away from this screen while it is running."
+msgstr "特に注文数の多いサイトや商品数の多いサイトでは、同期に時間がかかることがあります。実行中はこの画面から離れて移動するのが安全です。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:2083
+msgid "The plugin has started the initial sync with your store, and the process will work in the background automatically."
+msgstr "プラグインは、あなたの店との初期同期を開始しており、プロセスは自動的にバックグラウンドで動作します。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:2081
+msgid "Starting the sync process..."
+msgstr "同期処理の開始..."
+
+#: admin/class-mailchimp-woocommerce-admin.php:1590
+msgid "You must supply your Mailchimp API key to pull the audiences."
+msgstr "対象ユーザーをプルするには、Mailchimp API キーを指定する必要があります。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:1394
+msgid "Mailchimp for WooCommerce requires a Store Name to connect your store."
+msgstr "Mailchimp for WooCommerce をご利用になるには、ストア名を入力する必要があります。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:1390
+msgid "As part of the Mailchimp Terms of Use, we require a valid phone number for your store."
+msgstr "Mailchimp 利用規約の一環として、お客様の店舗の有効な電話番号が必要です。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:1386
+msgid "As part of the Mailchimp Terms of Use, we require a contact email and a physical mailing address."
+msgstr "Mailchimp 利用規約の一部として、連絡先のメールと有効な郵送先住所が必要です。"
+
+#: admin/class-mailchimp-woocommerce-admin.php:886
+msgid "Store Disconnect Failed"
+msgstr "ストアの切断に失敗しました"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:147
+msgid "Start sync"
+msgstr "同期の開始"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:207
+msgid "Log events from the Mailchimp plugin"
+msgstr "Mailchimp プラグインからのイベントのログ"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:181
+msgid "Please provide a bit of information about your WooCommerce store"
+msgstr "WooCommerce ストアについて少し情報を提供してください。"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:174
+msgid "Add Mailchimp for WooCommerce to build custom segments, send automations, and track purchase activity in Mailchimp"
+msgstr "Mailchimp for WooCommerce を追加すると、Mailchimp でカスタムセグメントを作成したり、自動送信したり、購入活動を追跡したりすることができます。"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:255
+#: admin/v2/templates/mailchimp-woocommerce-admin-pages.php:171
+msgid "Mailchimp says: API Request Error"
+msgstr "Mailchimp が通知: API リクエストエラー"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:249
+#: admin/v2/templates/mailchimp-woocommerce-admin-pages.php:165
+msgid "Mailchimp says: Please upgrade your PHP version to a minimum of 7.0"
+msgstr "MailChimp のコメント: PHP バージョンを7.0以上にアップグレードしてください"
+
+#. translators: %s - Mailchimp Privacy Policy URL.
+#: admin/partials/tabs/store-sync.php:264
+msgid "By using this plugin, Mailchimp will process customer information in accordance with their <a href=%s target=_blank>Privacy Policy</a>."
+msgstr "このプラグインを使用することで、Mailchimp は<a href=%s target=_blank>プライバシーポリシー</a>に従って顧客情報を処理します。"
+
+#: admin/partials/tabs/store-sync.php:242
+msgid "Order and customer information will not sync if they contain an Amazon or generic email address."
+msgstr "Amazon や一般的なメールアドレスが含まれている場合、注文と顧客情報は同期されません。"
+
+#: admin/partials/tabs/store-sync.php:207
+msgid "More Information"
+msgstr "詳細について"
+
+#: admin/partials/tabs/store-sync.php:284
+msgid "You can safely resync your audience at any time without losing any of your e-commerce data."
+msgstr "e コマースのデータを失うことなく、いつでも安全にオーディエンスを再同期することができます。"
+
+#: admin/partials/tabs/store-sync.php:135
+msgid "Starting..."
+msgstr "開始…"
+
+#: admin/partials/tabs/store-sync.php:125
+msgid "Initial sync in progress"
+msgstr "進行中の初期同期"
+
+#: admin/partials/tabs/store-sync.php:109
+msgid "Audience Connected"
+msgstr "購読者に接続されました"
+
+#: admin/partials/tabs/store-sync.php:106
+msgid "Account Connected"
+msgstr "接続されたアカウント"
+
+#: admin/partials/tabs/store-sync.php:195
+msgid "Unsubscribed"
+msgstr "配信停止しました"
+
+#: admin/partials/tabs/store-sync.php:188
+msgid "Transactional"
+msgstr "トランザクション可能"
+
+#: admin/partials/tabs/store-sync.php:181
+msgid "Subscribers"
+msgstr "登録者"
+
+#: admin/partials/tabs/store-sync.php:167
+#: admin/v2/templates/confirmation/tabs/overview.php:200
+msgid "Orders"
+msgstr "注文"
+
+#: admin/partials/tabs/api-key.php:21
+#: admin/v2/templates/connect-accounts/button-actions.php:28
+msgid "Connected! Please wait while loading next step"
+msgstr "接続しました! 次のステップをロードしている間、お待ちください"
+
+#: admin/partials/tabs/api-key.php:20
+#: admin/v2/templates/connect-accounts/button-actions.php:27
+msgid "Connection in progress"
+msgstr "進行中の接続"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:222
+msgid "Connect"
+msgstr "接続する"
+
+#: admin/partials/tabs/notices.php:37 admin/v2/templates/tabs/notices.php:37
+msgid "Mailchimp says: Your re-sync has been started!"
+msgstr "Mailchimp の通知: 再同期が開始されました!"
+
+#: admin/partials/tabs/notices.php:24 admin/v2/templates/tabs/notices.php:24
+msgid "Mailchimp says: You are not fully ready to run the Store Sync, please verify your settings before proceeding."
+msgstr "Mailchimp の通知: ストアの同期を実行する完全な準備ができていない、続行する前に、設定を確認してください。"
+
+#: admin/partials/tabs/notices.php:21 admin/v2/templates/tabs/notices.php:21
+msgid "Mailchimp says: Sorry you must set up your store before you proceed!"
+msgstr "Mailchimp の通知: 申し訳ありませんが、続行する前に、店を設定する必要があります!"
+
+#: admin/partials/tabs/notices.php:18 admin/v2/templates/tabs/notices.php:18
+msgid "Mailchimp says: You must select a marketing audience."
+msgstr "Mailchimp の通知: マーケティングオーディエンスを選択する必要があります。"
+
+#: admin/partials/tabs/notices.php:15 admin/v2/templates/tabs/notices.php:15
+msgid "Mailchimp says: You must enter in a valid API key."
+msgstr "Mailchimp の通知: 有効な API キーを入力する必要があります。"
+
+#: admin/partials/tabs/store-info.php:138
+#: admin/v2/templates/confirmation/tabs/store-info.php:49
+msgid "Select store's locale"
+msgstr "ストアの場所を選択する"
+
+#: admin/partials/tabs/store-info.php:132
+msgid "Please apply your locale settings. If you're unsure about these, use the defaults."
+msgstr "場所設定を適用してください。これらについて不明な場合は、既定値を使用します。"
+
+#: admin/partials/tabs/store-info.php:111
+msgid "Locale Settings"
+msgstr "場所設定"
+
+#: admin/partials/tabs/api-key.php:130 admin/partials/tabs/store-info.php:94
+#: admin/v2/templates/connect-accounts/create-account-page.php:206
+#: admin/v2/templates/connect-accounts/create-account-popup.php:115
+msgid "Select a Country"
+msgstr "国を選択"
+
+#: admin/partials/tabs/api-key.php:104 admin/partials/tabs/store-info.php:65
+#: admin/v2/templates/connect-accounts/create-account-popup.php:89
+msgid "State"
+msgstr "都道府県"
+
+#: admin/partials/tabs/logs.php:102
+#: admin/v2/templates/confirmation/tabs/logs.php:102
+msgid "Delete Log"
+msgstr "ログを削除"
+
+#: admin/partials/tabs/logs.php:81
+msgid "Recent Logs"
+msgstr "最近のログ"
+
+#: admin/partials/tabs/logs.php:40 admin/partials/tabs/logs.php:44
+msgid "Logging Preferences"
+msgstr "ログの環境設定"
+
+#: admin/partials/tabs/newsletter-settings.php:317
+#: admin/v2/templates/confirmation/tabs/store-info.php:150
+msgid "Define the product image size used by abandoned carts, order notifications, and product recommendations."
+msgstr "放置カート、注文通知、商品推薦で使用する商品画像のサイズを定義します。"
+
+#: admin/partials/tabs/newsletter-settings.php:313
+msgid "Product Image Size"
+msgstr "商品画像サイズ"
+
+#: admin/partials/tabs/newsletter-settings.php:299
+#: admin/v2/templates/confirmation/tabs/store-info.php:106
+msgid "Enter a WooCommerce form action"
+msgstr "WooCommerce フォームアクションを入力する"
+
+#: admin/partials/tabs/logs.php:51
+msgid ""
+"Advanced troubleshooting can be conducted with the logging capability turned on.\n"
+"            By default, it’s set to “standard” and you may toggle to either “debug” or “none” as needed.\n"
+"            With standard logging, you can see basic information about the data submission to Mailchimp including any errors.\n"
+"            “Debug” gives a much deeper insight that is useful to share with support if problems arise."
+msgstr ""
+"高度なトラブルシューティングは、ログ機能をオンにして実行できます。\n"
+"            デフォルトでは、「標準」に設定されており、必要に応じて「デバッグ」または「なし」のいずれかに切り替えることができます。\n"
+"            標準ロギングでは、エラーを含む Mailchimp へのデータ送信に関する基本的な情報を見ることができます。\n"
+"            「デバッグ」は、問題が発生した場合にサポートと共有するのに役立つ、はるかに深い洞察を提供します。"
+
+#. translators: %s - Woocommerce Actions documentation URL.
+#: admin/partials/tabs/newsletter-settings.php:283
+msgid "To change the position of the opt-in <br/>checkbox at checkout, input one of the <a href=%s target=_blank>available WooCommerce form actions</a>."
+msgstr "購入手続き時のオプトイン<br/>チェックボックスの位置を変更するには、<a href=%s target=_blank>利用可能な WooCommerce フォームアクション</a> のいずれかを入力します。"
+
+#: admin/partials/tabs/newsletter-settings.php:227
+#: admin/v2/templates/confirmation/tabs/store-info.php:127
+msgid "Hidden, unchecked by default"
+msgstr "非表示、デフォルトではチェックされていない"
+
+#: admin/partials/tabs/newsletter-settings.php:222
+#: admin/v2/templates/confirmation/tabs/store-info.php:121
+msgid "Visible, unchecked by default"
+msgstr "表示、デフォルトではチェックなし"
+
+#: admin/partials/tabs/newsletter-settings.php:217
+#: admin/v2/templates/confirmation/tabs/store-info.php:115
+msgid "Visible, checked by default"
+msgstr "表示、デフォルトでチェック"
+
+#: admin/partials/tabs/newsletter-settings.php:210
+#: admin/v2/templates/confirmation/tabs/store-info.php:110
+msgid "Checkbox display options"
+msgstr "チェックボックスの表示オプション"
+
+#: admin/partials/tabs/newsletter-settings.php:232
+msgid "Message for the opt-in checkbox"
+msgstr "オプトイン・チェックボックスのメッセージ"
+
+#: admin/partials/tabs/newsletter-settings.php:62
+#: admin/v2/templates/review-sync-settings/content.php:52
+msgid "Select Audience"
+msgstr "オーディエンスを選ぶ"
+
+#: admin/partials/tabs/newsletter-settings.php:59
+#: admin/v2/templates/review-sync-settings/content.php:49
+msgid "Create New Audience"
+msgstr "新しいオーディエンスの作成"
+
+#: admin/partials/tabs/newsletter-settings.php:46
+msgid "Audience Settings"
+msgstr "オーディエンス設定"
+
+#. translators: %s - plugin name.
+#: admin/partials/tabs/newsletter-settings.php:132
+msgid "You were subscribed to the newsletter from %s"
+msgstr "%s からのニュースレターを購読しました"
+
+#: admin/partials/tabs/newsletter-settings.php:125
+msgid "Permission reminder message"
+msgstr "リマインダーメッセージのパーミッション"
+
+#: admin/partials/tabs/newsletter-settings.php:105
+msgid "Store Newsletter"
+msgstr "ストアニュースレター"
+
+#: admin/partials/tabs/newsletter-settings.php:84
+msgid "Audience Defaults"
+msgstr "デフォルトのオーディエンス"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:397
+msgid "Skip & Deactivate"
+msgstr "スキップ & 非アクティブ化"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:396
+msgid "Submit & Deactivate"
+msgstr "送信＆無効化"
+
+#: admin/class-mailchimp-woocommerce-admin.php:608
+#: admin/v2/templates/connect-accounts/create-account-page.php:55
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:377
+msgid "Mailchimp for Woocommerce"
+msgstr "Mailchimp for Woocommerce"
+
+#. translators: %s - plugin name.
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:376
+msgid "If you have a moment, please share why you are deactivating %s:"
+msgstr "よろしければ、%s を無効化する理由を教えてください。"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:368
+msgid "Quick Feedback"
+msgstr "クイックフィードバック"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:359
+msgid "Please share the reason"
+msgstr "理由をご記入ください"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:353
+msgid "It's a temporary deactivation."
+msgstr "一時的な停止."
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:349
+msgid "I no longer use this integration."
+msgstr "この統合はもう使用していません。"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:345
+msgid "I was instructed to disconnect by Mailchimp Support."
+msgstr "Mailchimp サポートから切断するように指示されました。"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:341
+msgid "I'm trying to troubleshoot the integration."
+msgstr "統合のトラブルシューティングを試みている。"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:337
+msgid "The promo codes aren't showing up."
+msgstr "プロモコードが表示されない。"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:333
+msgid "The order data isn't syncing."
+msgstr "注文データが同期されない。"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:329
+msgid "I want to change the site or store connected through this integration."
+msgstr "この統合によって接続されているサイトや店舗を変更したい。"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:325
+msgid "I want to change the audience associated with this integration."
+msgstr "この統合に関連する観客を変更したい。"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:180
+msgid "Sending Feedback"
+msgstr "フィードバックの送信"
+
+#: admin/class-mailchimp-woocommerce-admin.php:137
+#: admin/class-mailchimp-woocommerce-admin.php:1359
+#: admin/partials/tabs/newsletter-settings.php:261
+#: admin/user-profile/mailchimp-user-profile.php:29
+#: includes/class-mailchimp-woocommerce-newsletter.php:53
+#: public/partials/mailchimp-woocommerce-my-account.php:10
+msgid "Subscribe to our newsletter"
+msgstr "ニュースレターを購読する"
+
+#: includes/class-mailchimp-woocommerce-rest-api.php:226
+#: includes/class-mailchimp-woocommerce-rest-api.php:552
+#: includes/class-mailchimp-woocommerce-rest-api.php:567
+msgid "D, M j, Y g:i A"
+msgstr "D, M j, Y g:i A"
+
+#: includes/class-mailchimp-woocommerce-privacy.php:78
+msgid "MailChimp Shopping Cart Data"
+msgstr "MailChimpショッピングカートデータ"
+
+#: includes/class-mailchimp-woocommerce-privacy.php:27
+#: includes/class-mailchimp-woocommerce-privacy.php:40
+msgid "MailChimp for WooCommerce"
+msgstr "MailChimp for WooCommerce"
+
+#. translators: %s - Mailchimp Privacy Policy URL.
+#: includes/class-mailchimp-woocommerce-privacy.php:12
+msgid "When shopping, we keep a record of your email and the cart contents for up to 30 days on our server. This record is kept to repopulate the contents of your cart if you switch devices or needed to come back another day. Read our privacy policy <a href=\"%s\">here</a>."
+msgstr "お買い物の際には、お客様のメールとカートの内容の記録を最大30日間サーバーに保存しています。この記録は、あなたがデバイスを切り替えるか、別の日に戻ってくる必要があった場合は、カートの内容を再配置するために保持されます。当社のプライバシーポリシー<a href=\"%s\">ここ</a>をお読みください。"
+
+#. Author URI of the plugin
+#: mailchimp-woocommerce.php
+msgid "https://mailchimp.com"
+msgstr "https://mailchimp.com"
+
+#. Description of the plugin
+#: mailchimp-woocommerce.php
+msgid "Connects WooCommerce to Mailchimp to sync your store data, send targeted campaigns to your customers, and sell more stuff."
+msgstr "WooCommerce と Mailchimp を接続して、ストアデータを同期し、顧客にターゲットを絞ったキャンペーンを送信し、より多くの商品を販売することができます。"
+
+#. Plugin URI of the plugin
+#: mailchimp-woocommerce.php
+msgid "https://mailchimp.com/connect-your-store/"
+msgstr "https://mailchimp.com/connect-your-store/"
+
+#: admin/partials/tabs/api-key.php:18
+#: admin/v2/templates/connect-accounts/button-actions.php:25
+msgid "Connecting. A new window will open with Mailchimp's OAuth service. Please log-in and we will take care of the rest."
+msgstr "接続します。Mailchimp の OAuth サービスで新しいウィンドウが開きます。ログインしていただければ、後はこちらで対応させていただきます。"
+
+#: admin/partials/tabs/api-key.php:13
+#: admin/v2/templates/connect-accounts/button-actions.php:14
+msgid "Connect your store to Mailchimp"
+msgstr "ストアを Mailchimp に接続する"
+
+#: admin/partials/tabs/newsletter-settings.php:237
+#: admin/v2/templates/confirmation/tabs/store-info.php:137
+msgid "HTML tags allowed: <a href=\"\" target=\"\" title=\"\"></a> and <br>"
+msgstr "許可され る HTML タグ: <a href=\"\" target=\"\" title=\"\"></a> および<br>"

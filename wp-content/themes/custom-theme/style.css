@@ -1,0 +1,143 @@
+/*
+Theme Name: Custome Theme
+Author:  Wordpress Development Team.
+Tags: custom-header, custom-menu, custom-colors, custom-background, responsive-layout, featured-images
+*/
+@font-face {
+  font-family: "Montserrat";
+  src:
+    url("fonts/Montserrat-Regular.ttf") format("ttf"),
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src:
+    url("fonts/Montserrat-Bold.ttf") format("ttf"),
+}
+
+body {
+	font-size: 14px;
+	color: #333;
+	overflow-x:hidden!important;
+    font-family: "Montserrat",sans-serif;
+}
+p{
+    color: #494a4b;
+    font-size: 15px;
+    line-height: 28px;
+}
+h1, h2, h3, h4 {
+	font-family: "Montserrat-Bold",sans-serif;
+}
+h5,h6{
+
+}
+a{
+	outline: 0!important;
+	text-decoration:none!important;
+	transition: all 0.5s ease-in-out!important;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+input, textarea {
+	width: 100%;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 8px 15px;
+	outline: 0;
+}
+.panel {
+	box-shadow: 0 0 0;
+	background: none;
+}
+.navbar {
+	margin-bottom: 0px;
+	border: 0px;
+}
+.navbar-collapse {
+	padding: 0px;
+}
+.nav>li:hover>a, .nav>li:focus>a, .nav>li.active>a, .nav>li>a:hover, .nav>li>a:focus, .nav .open>a, .nav .open>a:hover, .nav .open>a:focus { background: transparent;
+color: #e50019!important;
+}
+ul#menu-primary-menu {
+    flex-direction: unset;
+	width: 100%;
+    justify-content: end;
+}
+.header .container {
+    display: flex;
+    align-items: center;
+}
+.logo img.custom-logo {
+    width: 150px;
+    height: auto;
+}
+.logo {
+    width: 10%;
+}
+.main_menu {
+    width: 90%;
+}
+ul#menu-primary-menu li a {
+    padding: 10px 20px;
+}
+
+.home-pro li img {
+    height: 400px !important;
+    object-fit: cover;
+}
+.woocommerce.columns-3.home-pro {
+    margin-top: 20px;
+}
+
+.woocommerce ul.products li.product .button {
+	background-color: #b1daf9;
+	border: 1px solid #b1daf9;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+h2.woocommerce-loop-product__title {
+    font-size: 30px !important;
+    font-family: Montserrat-Bold,sans-serif !important;
+}
+span.woocommerce-Price-amount.amount {
+    color: red;
+    font-size: 19px;
+}
+span.color-swatch {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+	margin-right: 10px;
+    margin-top: 10px;
+}
+span.color-swatch.black {
+    background: black;
+}
+span.color-swatch.white {
+    background: #ddd;
+}
+span.color-swatch.blue {
+    background: blue;
+}
+a.added_to_cart.wc-forward {
+    margin-left: 10px;
+    background: gray;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+section.related.products {
+    text-transform: capitalize;
+}
+button.single_add_to_cart_button.button.alt {
+    margin-left: 10px;
+    background: gray;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
