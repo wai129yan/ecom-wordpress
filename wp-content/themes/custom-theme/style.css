@@ -146,3 +146,31 @@ section.related.products img {
     height: 250px !important;
     object-fit: cover;
 }
+.woocommerce.columns-4 img {
+    width: 100%;
+    height: 250px !important;
+    object-fit: cover;
+}
+.woocommerce-account .col-lg-9.col-md-9.col-sm-9 {
+    width: 100%;
+}
+nav.woocommerce-MyAccount-navigation {
+    background-color: #ddd;
+    padding: 50px 30px;
+}
+nav.woocommerce-MyAccount-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li.woocommerce-MyAccount-navigation-link a {
+    color: #000;
+}
+li.woocommerce-MyAccount-navigation-link.is-active a {
+    color: red;
+}
+ul.products.columns-4 li a img {
+    width: 100%;
+    height: 250px !important;
+    object-fit: cover;
+}
